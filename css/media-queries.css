@@ -1,0 +1,111 @@
+@media only screen and (min-width: 1024px) {
+  .social-proof {
+    background-image: url("../images/bg-pattern-top-desktop.svg"), 
+    url("../images/bg-pattern-bottom-desktop.svg");
+  }
+
+  .social-proof__ratings {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+
+  .social-proof__ratings-container {
+    display: flex;
+    flex-direction: row;
+    width: 445px;
+    height: 56px;
+  }
+
+  .social-proof__ratings-stars {
+    margin-right: 30px;
+  }
+
+  .social-proof__testimonials{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .social-proof {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    grid-template-areas: 
+    "text-container text-container ratings ratings"
+    "testimonials testimonials testimonials testimonials";
+    width: 1440px;
+    height: 800px;
+    padding: 0;
+  }
+
+  .social-proof__text-container {
+    grid-area: text-container;
+    margin-top: 125px;
+    margin-left: 165px;
+  }
+
+  .social-proof__text-container h1 {
+    margin-right: 4px;
+    font-size: 4.9rem;
+    line-height: 4.7rem;
+    text-align: left;
+  }
+
+  .social-proof__text-container p {
+    margin-right: 96px;
+    text-align: left;
+  }
+
+  .social-proof__ratings {
+    grid-area: ratings;
+    margin-top: 125px;
+    margin-right: 166px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 0;
+  }
+
+  .ratings-position {
+    margin-left: 48px;
+  }
+
+  .ratings-position1 {
+    margin-left: 95px;
+  }
+
+  .social-proof__testimonials {
+    grid-area: testimonials;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    column-gap: 30px;
+  }
+
+  .social-proof__testimonials-container {
+    width: 350px;
+    height: 234px;
+  }
+
+  .testimonials-position {
+    margin-top: 16px;
+  }
+
+  .testimonials-position1 {
+    margin-top: 32px;
+  }
+}
