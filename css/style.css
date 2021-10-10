@@ -156,7 +156,7 @@ html {
 }
 
 footer {
-  background-color: var(--white);
+  background-color: white;
   text-decoration: none;
   text-align: center;
   color: var(--primary-color);
