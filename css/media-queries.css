@@ -2,6 +2,7 @@
   .social-proof {
     background-image: url("../images/bg-pattern-top-desktop.svg"), 
     url("../images/bg-pattern-bottom-desktop.svg");
+    height: 100vh;
   }
 
   .social-proof__ratings {
@@ -45,7 +46,7 @@
     "text-container text-container ratings ratings"
     "testimonials testimonials testimonials testimonials";
     width: 1440px;
-    height: 800px;
+    height: 100vh;
     padding: 0;
   }
 

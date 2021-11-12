@@ -7,6 +7,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -26,6 +27,10 @@ Users should be able to:
 
 ![](./design/mobile-solution.png)
 ![](./design/desktop-solution.png)
+
+### Links
+
+- Live Site URL: [Social proof section](https://leslief10.github.io/social-proof-section/)
 
 ## My process
 
