@@ -2,7 +2,6 @@
   .social-proof {
     background-image: url("../images/bg-pattern-top-desktop.svg"), 
     url("../images/bg-pattern-bottom-desktop.svg");
-    height: 100vh;
   }
 
   .social-proof__ratings {
