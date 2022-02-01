@@ -44,9 +44,11 @@
     grid-template-areas: 
     "text-container text-container ratings ratings"
     "testimonials testimonials testimonials testimonials";
-    width: 1440px;
+    min-width: 1440px;
     height: 100vh;
     padding: 0;
+    justify-items: center;
+    align-content: center;
   }
 
   .social-proof__text-container {
